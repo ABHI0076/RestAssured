@@ -1,0 +1,1 @@
+Always remove the token from "Data/data.properties" file before adding and pushing file to git.
