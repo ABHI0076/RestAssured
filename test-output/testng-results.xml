@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="14" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-19T22:02:00 IST" name="Suite" finished-at="2024-09-19T22:02:04 IST" duration-ms="4458">
+    <groups>
+    </groups>
+    <test started-at="2024-09-19T22:02:00 IST" name="Test" finished-at="2024-09-19T22:02:04 IST" duration-ms="4458">
+      <class name="com.api.RestAssuredTraining.Create_Card">
+        <test-method is-config="true" signature="initializeReporter()[pri:0, instance:com.api.RestAssuredTraining.Create_Card@78e4deb0]" started-at="2024-09-19T22:01:59 IST" name="initializeReporter" finished-at="2024-09-19T22:01:59 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReporter -->
+        <test-method is-config="true" signature="setRequestSpecs()[pri:0, instance:com.api.RestAssuredTraining.Create_Card@78e4deb0]" started-at="2024-09-19T22:01:59 IST" name="setRequestSpecs" finished-at="2024-09-19T22:02:00 IST" depends-on-methods="Utility.ExtentReport.initializeReporter" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRequestSpecs -->
+        <test-method is-config="true" signature="setLoggerAndCreateTest()[pri:0, instance:com.api.RestAssuredTraining.Create_Card@78e4deb0]" started-at="2024-09-19T22:02:00 IST" name="setLoggerAndCreateTest" finished-at="2024-09-19T22:02:00 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLoggerAndCreateTest -->
+        <test-method signature="create_Card()[pri:1, instance:com.api.RestAssuredTraining.Create_Card@78e4deb0]" started-at="2024-09-19T22:02:00 IST" name="create_Card" finished-at="2024-09-19T22:02:02 IST" duration-ms="1519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Card -->
+        <test-method is-config="true" signature="ststusOfTest(org.testng.ITestResult)[pri:0, instance:com.api.RestAssuredTraining.Create_Card@78e4deb0]" started-at="2024-09-19T22:02:02 IST" name="ststusOfTest" finished-at="2024-09-19T22:02:02 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create_Card status=SUCCESS method=Create_Card.create_Card()[pri:1, instance:com.api.RestAssuredTraining.Create_Card@78e4deb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ststusOfTest -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.api.RestAssuredTraining.Create_Card@78e4deb0]" started-at="2024-09-19T22:02:04 IST" name="flushReport" finished-at="2024-09-19T22:02:04 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.api.RestAssuredTraining.Create_Card -->
+      <class name="com.api.RestAssuredTraining.Get_Card">
+        <test-method is-config="true" signature="setLoggerAndCreateTest()[pri:0, instance:com.api.RestAssuredTraining.Get_Card@7674f035]" started-at="2024-09-19T22:02:02 IST" name="setLoggerAndCreateTest" finished-at="2024-09-19T22:02:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLoggerAndCreateTest -->
+        <test-method signature="get_Card()[pri:2, instance:com.api.RestAssuredTraining.Get_Card@7674f035]" started-at="2024-09-19T22:02:02 IST" name="get_Card" finished-at="2024-09-19T22:02:02 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Card -->
+        <test-method is-config="true" signature="ststusOfTest(org.testng.ITestResult)[pri:0, instance:com.api.RestAssuredTraining.Get_Card@7674f035]" started-at="2024-09-19T22:02:02 IST" name="ststusOfTest" finished-at="2024-09-19T22:02:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_Card status=SUCCESS method=Get_Card.get_Card()[pri:2, instance:com.api.RestAssuredTraining.Get_Card@7674f035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ststusOfTest -->
+      </class> <!-- com.api.RestAssuredTraining.Get_Card -->
+      <class name="com.api.RestAssuredTraining.Delete_Card">
+        <test-method is-config="true" signature="setLoggerAndCreateTest()[pri:0, instance:com.api.RestAssuredTraining.Delete_Card@173ed316]" started-at="2024-09-19T22:02:03 IST" name="setLoggerAndCreateTest" finished-at="2024-09-19T22:02:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLoggerAndCreateTest -->
+        <test-method signature="delete_Card()[pri:4, instance:com.api.RestAssuredTraining.Delete_Card@173ed316]" started-at="2024-09-19T22:02:03 IST" name="delete_Card" finished-at="2024-09-19T22:02:04 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_Card -->
+        <test-method signature="delete_Same_Card_Again()[pri:5, instance:com.api.RestAssuredTraining.Delete_Card@173ed316]" started-at="2024-09-19T22:02:04 IST" name="delete_Same_Card_Again" finished-at="2024-09-19T22:02:04 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_Same_Card_Again -->
+        <test-method is-config="true" signature="ststusOfTest(org.testng.ITestResult)[pri:0, instance:com.api.RestAssuredTraining.Delete_Card@173ed316]" started-at="2024-09-19T22:02:04 IST" name="ststusOfTest" finished-at="2024-09-19T22:02:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=delete_Card status=SUCCESS method=Delete_Card.delete_Card()[pri:4, instance:com.api.RestAssuredTraining.Delete_Card@173ed316] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ststusOfTest -->
+        <test-method is-config="true" signature="ststusOfTest(org.testng.ITestResult)[pri:0, instance:com.api.RestAssuredTraining.Delete_Card@173ed316]" started-at="2024-09-19T22:02:04 IST" name="ststusOfTest" finished-at="2024-09-19T22:02:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=delete_Same_Card_Again status=SUCCESS method=Delete_Card.delete_Same_Card_Again()[pri:5, instance:com.api.RestAssuredTraining.Delete_Card@173ed316] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ststusOfTest -->
+      </class> <!-- com.api.RestAssuredTraining.Delete_Card -->
+      <class name="com.api.RestAssuredTraining.Update_Card">
+        <test-method signature="update_Card()[pri:3, instance:com.api.RestAssuredTraining.Update_Card@69e153c5]" started-at="2024-09-19T22:02:02 IST" name="update_Card" finished-at="2024-09-19T22:02:03 IST" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_Card -->
+        <test-method is-config="true" signature="setLoggerAndCreateTest()[pri:0, instance:com.api.RestAssuredTraining.Update_Card@69e153c5]" started-at="2024-09-19T22:02:02 IST" name="setLoggerAndCreateTest" finished-at="2024-09-19T22:02:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLoggerAndCreateTest -->
+        <test-method is-config="true" signature="ststusOfTest(org.testng.ITestResult)[pri:0, instance:com.api.RestAssuredTraining.Update_Card@69e153c5]" started-at="2024-09-19T22:02:03 IST" name="ststusOfTest" finished-at="2024-09-19T22:02:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=update_Card status=SUCCESS method=Update_Card.update_Card()[pri:3, instance:com.api.RestAssuredTraining.Update_Card@69e153c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ststusOfTest -->
+      </class> <!-- com.api.RestAssuredTraining.Update_Card -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
